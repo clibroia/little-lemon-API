@@ -24,5 +24,3 @@ const timeSlotsAPI = {
         return dateString;
     }
 };
-
-export default timeSlotsAPI;
