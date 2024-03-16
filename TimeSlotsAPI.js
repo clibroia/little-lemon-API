@@ -24,3 +24,4 @@ var TimeSlotsAPI = {
         return dateString;
     }
 }
+TimeSlotsAPI;
