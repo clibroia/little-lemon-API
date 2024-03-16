@@ -23,5 +23,5 @@ var TimeSlotsAPI = {
         const dateString = `${year}-${month}-${day}`;
         return dateString;
     }
-}
+};
 TimeSlotsAPI;
