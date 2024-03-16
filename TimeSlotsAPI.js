@@ -1,4 +1,4 @@
-const timeSlotsAPI = {
+window.timeSlotsAPI = {
     fetchData: function(date) {
         let availableTimes = ['19:30', '20:00', '20:30', '21:00', '21:30', '22:00'];
         let returnedTimes = [];
