@@ -1,3 +1,4 @@
+const scriptContent = `
 var TimeSlotsAPI = {
     fetchData: function(date) {
         let availableTimes = ['19:30', '20:00', '20:30', '21:00', '21:30', '22:00'];
@@ -20,8 +21,9 @@ var TimeSlotsAPI = {
         const month = String(date.getMonth() + 1).padStart(2, '0');
         const day = String(date.getDate()).padStart(2, '0');
 
-        const dateString = `${year}-${month}-${day}`;
+        const dateString = \`\${year}-\${month}-\${day}\`;
         return dateString;
     }
 };
 TimeSlotsAPI;
+`;
