@@ -1,0 +1,1 @@
+window.submitAPI.js = true;
