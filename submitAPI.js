@@ -1,5 +1,5 @@
-window.submitAPI ={
-    submit: () => {
+window.submitAPI = {
+    submit: function() {
         return true;
     }
 };
