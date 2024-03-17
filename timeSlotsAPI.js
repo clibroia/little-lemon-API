@@ -6,7 +6,7 @@ window.timeSlotsAPI = {
         if(typeof(date) !== 'string') {
             throw Error('Wrong data type: date provided must be a string');
         }
-        availableSlots = Math.floor(Math.random() * 7);
+        availableSlots = Math.floor(1 + Math.random() * 7);
         for(let i=0; i<availableSlots; i++) {
             index = Math.floor(Math.random() * availableTimes.length);
             returnedTimes.push(availableTimes[index]);
