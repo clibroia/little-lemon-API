@@ -1,4 +1,4 @@
-window.submitAPI = {
+window.submitAPI ={
     submit: function() {
         return true;
     }
